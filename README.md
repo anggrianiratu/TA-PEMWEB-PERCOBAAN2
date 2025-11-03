@@ -39,7 +39,7 @@ pemweb-percobaan2/
 
 # *WORKFLOW GIT*
 
-### 1. **Instalasi dan Konfigurasi Git**
+## 1. **Instalasi dan Konfigurasi Git**
    ![Alt text](img/1.png)
   ```bash
    git config --global user.name "Nama Anda"
@@ -47,7 +47,7 @@ pemweb-percobaan2/
    git config --list
    ```
 
-### 2. **Membuat Repository Lokal**
+## 2. **Membuat Repository Lokal**
    ![Alt text](img/2.png)
    ```bash
    mkdir nama-folder-proyek
@@ -55,20 +55,20 @@ pemweb-percobaan2/
    git init
    ```
 
-### 3. **Commit dan History**
+## 3. **Commit dan History**
    ![Alt text](img/3.png)
 
-   #### 1. Tambahkan file ke staging area
+   #### a. Tambahkan file ke staging area
    ```bash
    git add index.html
    ```
 
-   #### 2. Commit perubahan dengan pesan
+   #### b. Commit perubahan dengan pesan
    ```bash
    git commit -m "Tambah section Header/Navbar"
    ```
 
-   #### 3. Commit untuk setiap section berikutnya
+   #### c. Commit untuk setiap section berikutnya
    ```bash
    git commit -m "Tambah section Home/Hero"
    git commit -m "Tambah section About Me"
@@ -78,7 +78,7 @@ pemweb-percobaan2/
    git commit -m "Tambah Footer"
    ```
 
-   ### Perintah Commit
+   ### Riwayat Commit
    ![Alt text](img/8.png)
    ```bash
    git log
@@ -88,28 +88,39 @@ pemweb-percobaan2/
    git log --oneline
    ```
 
+   ### Menambahkan file tambahan seperti stylesheet dan foto profil:
    ![Alt text](img/4.png)
    ```bash
-   git log --oneline
+   git add foto.jpg style.css
+   git commit -m "Menambahkan foto dan style.css"
    ```
 
-5. Branching dan Merging
+## 4. Branching dan Merging
    ![Alt text](img/6.png)
+   
 
-   git log --graph --oneline.
+   ### Menampilkan riwayat commit
    ![Alt text](img/7.png)
+   ```bash
+   git log --graph --oneline
+   ```
 
-7. Remote Repository dengan GitHub
+## 5. Remote Repository dengan GitHub
    ![Alt text](img/5.png)
+   #### a. Hubungkan repository lokal ke GitHub (ganti URL dengan punyamu)
+   ```bash
+   git remote add origin https://github.com/username/nama-project.git
+   ```
 
+   #### b. Pastikan branch utama bernama 'main'
+   ```bash
+   git branch -M main
+   ```
 
-
-
-
-
-
-
-
+   #### c. Upload (push) semua commit ke GitHub
+   ```bash
+   git push -u origin main
+   ```
 
 
 ## Contact
