@@ -101,7 +101,24 @@ TA-PEMWEB-PERCOBAAN2
    git commit -m "Menambahkan foto dan style.css"
    ```
 
-## 4. Branching dan Merging
+## 4. Remote Repository dengan GitHub
+   ![Alt text](img/5.png)
+   ### a. Hubungkan repository lokal ke GitHub (ganti URL dengan punyamu)
+   ```bash
+   git remote add origin https://github.com/username/nama-project.git
+   ```
+
+   ### b. Pastikan branch utama bernama 'main'
+   ```bash
+   git branch -M main
+   ```
+
+   ### c. Upload (push) semua commit ke GitHub
+   ```bash
+   git push -u origin main
+   ```
+
+## 5. Branching dan Merging
    ![Alt text](img/6.png)
    ### a. Membuat branch baru untuk eksperimen styling
    ```bash
@@ -139,22 +156,7 @@ TA-PEMWEB-PERCOBAAN2
    git log --graph --oneline
    ```
 
-## 5. Remote Repository dengan GitHub
-   ![Alt text](img/5.png)
-   ### a. Hubungkan repository lokal ke GitHub (ganti URL dengan punyamu)
-   ```bash
-   git remote add origin https://github.com/username/nama-project.git
-   ```
 
-   ### b. Pastikan branch utama bernama 'main'
-   ```bash
-   git branch -M main
-   ```
-
-   ### c. Upload (push) semua commit ke GitHub
-   ```bash
-   git push -u origin main
-   ```
 
 
 ## Contact
