@@ -40,7 +40,10 @@ pemweb-percobaan2/
 # *WORKFLOW GIT*
 
 1. Instalasi dan Konfigurasi Git
-   ![Alt text](foto/1.png)
+   ![Alt text](img/1.png)
+
+2. Membuat Repository Lokal
+   ![Alt text](img/2.png)
 
 
 
