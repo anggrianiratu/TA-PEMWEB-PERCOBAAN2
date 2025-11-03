@@ -40,7 +40,8 @@ pemweb-percobaan2/
 # *WORKFLOW GIT*
 
 1. Instalasi dan Konfigurasi Git
-   <img src="foto/1.png" alt="contoh" width="300"/>
+   ![Alt text](foto/1.png)
+
 
 
 
