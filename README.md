@@ -5,11 +5,11 @@ Proyek ini disusun menggunakan HTML dan CSS dengan struktur yang sederhana, bers
 
 ## Biodata
 
-Nama             : Anggriani Luthfiyah Ratu  
-Universitas      : Universitas Lampung  
-Program Studi    : Teknik Informatika  
-Konsentrasi      : Rekayasa Perangkat Lunak (RPL)
-Minat            : Web Development & UI/UX Design
+* Nama             : Anggriani Luthfiyah Ratu  
+* Universitas      : Universitas Lampung  
+* Program Studi    : Teknik Informatika  
+* Konsentrasi      : Rekayasa Perangkat Lunak (RPL)
+* Minat            : Web Development & UI/UX Design
 
 ## Struktur Folder
 
@@ -39,22 +39,59 @@ pemweb-percobaan2/
 
 # *WORKFLOW GIT*
 
-1. Instalasi dan Konfigurasi Git
+### 1. **Instalasi dan Konfigurasi Git**
    ![Alt text](img/1.png)
+  ```bash
+   git config --global user.name "Nama Anda"
+   git config --global user.email "email@example.com"
+   git config --list
+   ```
 
-2. Membuat Repository Lokal
+### 2. **Membuat Repository Lokal**
    ![Alt text](img/2.png)
+   ```bash
+   mkdir nama-folder-proyek
+   cd nama-folder-proyek
+   git init
+   ```
 
-3. Commit dan History
+### 3. **Commit dan History**
    ![Alt text](img/3.png)
-   ![Alt text](img/4.png)
 
-   Perintah Commit
-   git log
+   #### 1. Tambahkan file ke staging area
+   ```bash
+   git add index.html
+   ```
+
+   #### 2. Commit perubahan dengan pesan
+   ```bash
+   git commit -m "Tambah section Header/Navbar"
+   ```
+
+   #### 3. Commit untuk setiap section berikutnya
+   ```bash
+   git commit -m "Tambah section Home/Hero"
+   git commit -m "Tambah section About Me"
+   git commit -m "Tambah section Skills"
+   git commit -m "Tambah section Projects"
+   git commit -m "Tambah section Contact"
+   git commit -m "Tambah Footer"
+   ```
+
+   ### Perintah Commit
    ![Alt text](img/8.png)
-
-   git log --oneline
+   ```bash
+   git log
+   ```
    ![Alt text](img/9.png)
+   ```bash
+   git log --oneline
+   ```
+
+   ![Alt text](img/4.png)
+   ```bash
+   git log --oneline
+   ```
 
 5. Branching dan Merging
    ![Alt text](img/6.png)
