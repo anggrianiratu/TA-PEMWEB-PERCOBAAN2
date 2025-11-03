@@ -45,6 +45,9 @@ pemweb-percobaan2/
 2. Membuat Repository Lokal
    ![Alt text](img/2.png)
 
+3. Commit dan History
+   ![Alt text](img/3.png)
+
 
 
 
