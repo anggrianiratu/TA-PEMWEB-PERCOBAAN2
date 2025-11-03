@@ -22,7 +22,10 @@ TA-PEMWEB-PERCOBAAN2
 ├── index.html  
 ├── style.css  
 ├── foto.jpg  
+├── img 
+├── Perintah git log --graph --oneline 
 └── README.md
+
 
 ## Fitur Website
 
