@@ -47,6 +47,7 @@ pemweb-percobaan2/
 
 3. Commit dan History
    ![Alt text](img/3.png)
+   ![Alt text](img/4.png)
 
 
 
