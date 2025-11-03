@@ -1,7 +1,12 @@
 # *Personal Portfolio Website*
 
-Website portfolio ini dibuat untuk menampilkan profil pribadi, keahlian, proyek, serta informasi kontak secara menarik dan responsif dalam satu halaman. 
-Proyek ini disusun menggunakan HTML dan CSS dengan struktur yang sederhana, bersih, dan mudah dikembangkan di masa depan.
+Website portfolio ini merupakan proyek pengembangan halaman pribadi yang dirancang untuk menampilkan profil, keahlian, portofolio proyek, 
+serta informasi kontak secara menarik dan responsif. Dibangun menggunakan HTML dan CSS, situs ini memiliki tampilan sederhana dan rapi dengan 
+struktur kode yang mudah dipahami serta dapat dikembangkan lebih lanjut di masa depan.
+
+Dalam proyek ini, diterapkan langkah-langkah workflow Git sebagai bagian dari tugas akhir Percobaan 2 pada praktikum Pemrograman Web. Tahapan yang 
+dilakukan meliputi inisialisasi Git untuk project portfolio, melakukan commit secara bertahap pada setiap section yang dibuat, membuat branch baru 
+untuk eksperimen styling, melakukan merge setelah proses styling selesai, serta melakukan push ke GitHub.
 
 ## Biodata
 
@@ -13,7 +18,7 @@ Proyek ini disusun menggunakan HTML dan CSS dengan struktur yang sederhana, bers
 
 ## Struktur Folder
 
-pemweb-percobaan2/  
+TA-PEMWEB-PERCOBAAN2  
 ├── index.html  
 ├── style.css  
 ├── foto.jpg  
