@@ -97,7 +97,36 @@ pemweb-percobaan2/
 
 ## 4. Branching dan Merging
    ![Alt text](img/6.png)
-   
+   #### a. Membuat branch baru untuk eksperimen styling
+   ```bash
+   git branch styling-experiment
+   ```
+
+   #### b. Pindah ke branch tersebut
+   ```bash
+   git checkout styling-experiment
+   ```
+
+   #### c. Tambahkan perubahan styling (misal: ubah warna navbar & shadow)
+   ```bash
+   git add style.css
+   ```
+
+   #### d. Commit perubahan di branch styling
+   ```bash
+   git commit -m "Eksperimen styling: ubah warna navbar & shadow"
+   ```
+
+   #### e. Kembali ke branch utama (main)
+   ```bash
+   git checkout main
+   ```
+
+   #### f. Gabungkan (merge) branch eksperimen ke main
+   ```bash
+   git merge styling-experiment
+   ```
+
 
    ### Menampilkan riwayat commit
    ![Alt text](img/7.png)
