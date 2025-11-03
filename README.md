@@ -1,4 +1,4 @@
-# *Personal Portfolio Website*
+# *PERSONAL PORTFOLIO WEBSITE*
 
 Website portfolio ini merupakan proyek pengembangan halaman pribadi yang dirancang untuk menampilkan profil, keahlian, portofolio proyek, 
 serta informasi kontak secara menarik dan responsif. Dibangun menggunakan HTML dan CSS, situs ini memiliki tampilan sederhana dan rapi dengan 
@@ -43,7 +43,7 @@ TA-PEMWEB-PERCOBAAN2
 4. **GitHub** : Menyimpan project ke repository online.
 
 
-# *WORKFLOW GIT*
+# *INSTALASI DAN PENGELOLAAN PROYEK*
 
 ## 1. **Instalasi dan Konfigurasi Git**
    ![Alt text](img/1.png)
