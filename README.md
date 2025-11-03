@@ -49,6 +49,12 @@ pemweb-percobaan2/
    ![Alt text](img/3.png)
    ![Alt text](img/4.png)
 
+4. Remote Repository dengan GitHub
+   ![Alt text](img/5.png)
+
+5. Branching dan Merging
+    ![Alt text](img/6.png)
+
 
 
 
