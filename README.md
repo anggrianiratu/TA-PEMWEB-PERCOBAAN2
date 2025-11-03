@@ -26,7 +26,6 @@ TA-PEMWEB-PERCOBAAN2
 ├── Perintah git log --graph --oneline 
 └── README.md
 
-
 ## Fitur Website
 
 1. **Header/Navbar**: Navigasi ke setiap section halaman.  
@@ -66,17 +65,17 @@ TA-PEMWEB-PERCOBAAN2
 ## 3. **Commit dan History**
    ![Alt text](img/3.png)
 
-   #### a. Tambahkan file ke staging area
+   ### a. Tambahkan file ke staging area
    ```bash
    git add index.html
    ```
 
-   #### b. Commit perubahan dengan pesan
+   ### b. Commit perubahan dengan pesan
    ```bash
    git commit -m "Tambah section Header/Navbar"
    ```
 
-   #### c. Commit untuk setiap section berikutnya
+   ### c. Commit untuk setiap section berikutnya
    ```bash
    git commit -m "Tambah section Home/Hero"
    git commit -m "Tambah section About Me"
@@ -105,36 +104,35 @@ TA-PEMWEB-PERCOBAAN2
 
 ## 4. Branching dan Merging
    ![Alt text](img/6.png)
-   #### a. Membuat branch baru untuk eksperimen styling
+   ### a. Membuat branch baru untuk eksperimen styling
    ```bash
    git branch styling-experiment
    ```
 
-   #### b. Pindah ke branch tersebut
+   ### b. Pindah ke branch tersebut
    ```bash
    git checkout styling-experiment
    ```
 
-   #### c. Tambahkan perubahan styling (misal: ubah warna navbar & shadow)
+   ### c. Tambahkan perubahan styling (misal: ubah warna navbar & shadow)
    ```bash
    git add style.css
    ```
 
-   #### d. Commit perubahan di branch styling
+   ### d. Commit perubahan di branch styling
    ```bash
    git commit -m "Eksperimen styling: ubah warna navbar & shadow"
    ```
 
-   #### e. Kembali ke branch utama (main)
+   ### e. Kembali ke branch utama (main)
    ```bash
    git checkout main
    ```
 
-   #### f. Gabungkan (merge) branch eksperimen ke main
+   ### f. Gabungkan (merge) branch eksperimen ke main
    ```bash
    git merge styling-experiment
    ```
-
 
    ### Menampilkan riwayat commit
    ![Alt text](img/7.png)
@@ -144,17 +142,17 @@ TA-PEMWEB-PERCOBAAN2
 
 ## 5. Remote Repository dengan GitHub
    ![Alt text](img/5.png)
-   #### a. Hubungkan repository lokal ke GitHub (ganti URL dengan punyamu)
+   ### a. Hubungkan repository lokal ke GitHub (ganti URL dengan punyamu)
    ```bash
    git remote add origin https://github.com/username/nama-project.git
    ```
 
-   #### b. Pastikan branch utama bernama 'main'
+   ### b. Pastikan branch utama bernama 'main'
    ```bash
    git branch -M main
    ```
 
-   #### c. Upload (push) semua commit ke GitHub
+   ### c. Upload (push) semua commit ke GitHub
    ```bash
    git push -u origin main
    ```
