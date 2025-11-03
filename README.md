@@ -49,10 +49,20 @@ pemweb-percobaan2/
    ![Alt text](img/3.png)
    ![Alt text](img/4.png)
 
-4. Branching dan Merging
-    ![Alt text](img/6.png)
+   Perintah Commit
+   git log
+   ![Alt text](img/8.png)
 
-5. Remote Repository dengan GitHub
+   git log --oneline
+   ![Alt text](img/9.png)
+
+5. Branching dan Merging
+   ![Alt text](img/6.png)
+
+   git log --graph --oneline.
+   ![Alt text](img/7.png)
+
+7. Remote Repository dengan GitHub
    ![Alt text](img/5.png)
 
 
